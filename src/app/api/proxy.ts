@@ -1,10 +1,10 @@
 import { NextApiRequest, NextApiResponse } from 'next';
-import { NextResponse } from 'next/server';
+// import { NextResponse } from 'next/server';
 
-type DictType = Record<
-  string,
-  (user?: string, password?: string) => Promise<unknown>
->;
+// type DictType = Record<
+//   string,
+//   (user?: string, password?: string) => Promise<unknown>
+// >;
 const googleFormUrl =
   'https://docs.google.com/forms/d/e/1FAIpQLSd-MdK69QUOnqf1IDqZ6NIDc4ZLhcJpaUfnFGcQUn1oKtuaYA/';
 
